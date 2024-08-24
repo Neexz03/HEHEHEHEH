@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Words</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .text-box {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #4682b4;
+            border-radius: 10px;
+            background-color: #ffffff;
+            margin-top: 20px;
+        }
+        .text-box p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        .highlight {
+            color: #4682b4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        alert("Hello");
+
+        // Fungsi untuk memulai audio ketika halaman diklik
+        document.addEventListener('click', function () {
+            const audio = document.getElementById('background-music');
+            if (audio.paused) {
+                audio.play();
+            }
+        });
+    </script>
+
+    <!-- Audio tanpa atribut muted dan controls -->
+    <audio id="background-music" src="https://l.top4top.io/m_3157o2y5p0.mp3" autoplay loop></audio>
+    
+    <div class="text-box">
+        <p>Beautiful, gorgeous, attractive, stunning, lovely, exquisite, charming, enchanting, delightful, radiant, splendid, magnificent, breathtaking, elegant, glamorous, alluring, captivating, and mesmerizing.</p>
+        <p class="highlight">(It's you)</p>
+    </div>
+</body>
+</html>
